@@ -1,0 +1,13 @@
+package com.sunbeam;
+
+public class BinarySearch {
+	
+	int binarysearch(int arr[], int key)
+	{
+		int count = 0;
+		
+		
+		return count;
+	}
+
+}

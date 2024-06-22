@@ -1,0 +1,22 @@
+package com.sunbeam;
+
+public class NonRepeatingElement {
+
+	public int firstNonRepeatingElement(int[] arr) {
+		int element = 0;
+		for(int i = 0; i < arr.length-1; i++)
+		{
+			element = arr[i];
+			for(int j = i+1; j<arr.length-1; j++)
+			{
+				if(arr[i] == arr[j])
+				{
+					break;
+				}
+			}
+		}
+		
+		return element;
+	}
+
+}
